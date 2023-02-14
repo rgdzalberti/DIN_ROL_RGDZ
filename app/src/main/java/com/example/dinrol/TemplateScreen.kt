@@ -184,12 +184,12 @@ fun TemplateScreen(nav: NavController, screen: Screen){
 
                 var message = ""
 
-                    if (screen.boton1.second.contains("VICTORIA") || screen.boton1.second.contains("DERROTA")) {
+                    if (screen.boton1.second.contains("VICTORIA")) {
                         message = screen.boton1.second.split(":")[1]
-                    } else if (screen.boton2.second.contains("VICTORIA") || screen.boton2.second.contains("DERROTA"))
+                    } else if (screen.boton2.second.contains("VICTORIA") )
                     {
                         message = screen.boton2.second.split(":")[1]
-                    } else if (screen.boton3.second.contains("VICTORIA") || screen.boton3.second.contains("DERROTA"))
+                    } else if (screen.boton3.second.contains("VICTORIA"))
                     {
                         message = screen.boton3.second.split(":")[1]
                     }
@@ -200,12 +200,12 @@ fun TemplateScreen(nav: NavController, screen: Screen){
 
                 var message = ""
 
-                if (screen.boton1.second.contains("VICTORIA") || screen.boton1.second.contains("DERROTA")) {
+                if (screen.boton1.second.contains("DERROTA")) {
                     message = screen.boton1.second.split(":")[1]
-                } else if (screen.boton2.second.contains("VICTORIA") || screen.boton2.second.contains("DERROTA"))
+                } else if (screen.boton2.second.contains("DERROTA"))
                 {
                     message = screen.boton2.second.split(":")[1]
-                } else if (screen.boton3.second.contains("VICTORIA") || screen.boton3.second.contains("DERROTA"))
+                } else if (screen.boton3.second.contains("DERROTA"))
                 {
                     message = screen.boton3.second.split(":")[1]
                 }
